@@ -1,0 +1,45 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# CLion IDE files
+.idea/
+cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+CMakeScripts/
+*.cmake
+
+# Compilation artifacts
+*.o
+*.obj
+*.so
+*.a
+*.out
+*.exe
+*.dSYM/
+
+# Log and temporary files
+*.log
+*.tmp
+*.swp
+
+# Dependency manager folders, if using Conan or other package managers
+conan/
+vcpkg/
+
+# Profiling and debugging files
+*.gcda
+*.gcno
+*.gcov
+
+# Test directories or files, if any
+test/
+tests/
+
+# User-specific configuration files
+*.user
+*.user.*
