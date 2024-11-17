@@ -17,7 +17,7 @@ Game::Game(const GameMode am_mode) : m_gameMode(am_mode) {
         m_playerO = std::make_unique<HumanPlayer>(CellState::O);  // Player O (Human)
     }
     
-    // Set Player X to start the game.
+    // Set Player X to start the game
     m_currentPlayer = std::move(m_playerX);
 }
 

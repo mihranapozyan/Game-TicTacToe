@@ -28,7 +28,7 @@ public:
     Game(GameMode);
 
     // Method to start and run the game loop.
-    // The loop continues until there's a winner or a draw.
+    // The loop continues until there's a winner or a draw
     void play();
 
     // Method to switch between players (X -> O, O -> X) based on the current player and game mode.
